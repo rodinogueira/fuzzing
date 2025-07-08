@@ -1,6 +1,6 @@
 const http = require('http');
 const url = require('url');
-
+//http://localhost:8082/file?name=../main.js
 const target = 'http://localhost:8082/file?name=';
 
 // Lista de arquivos e caminhos que vamos tentar acessar
